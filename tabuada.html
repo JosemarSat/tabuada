@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tabuada</title>
+  </head>
+
+  <body id="aprenda">
+    <header class="header">
+      <img id="logo" src="img/logo.png" alt="" />
+    </header>
+
+    <h2>Tabuada</h2>
+    <br />
+    
+    <div id="num">
+      <strong>Tabuada do número:</strong><input id="numero" type="number" />
+      <br />
+    </div>
+
+    <h2>Selecione uma operação:</h2>
+
+    <table id="center"><caption></caption>
+      <th>
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="adi"
+              name="Contas"
+              value="1"
+            />Adição</strong
+          >
+        </tr>
+
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="sub"
+              name="Contas"
+              value="2"
+            />Subtração</strong
+          >
+        </tr>
+
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="mult"
+              name="Contas"
+              value="3"
+            />Multiplicação</strong
+          >
+        </tr>
+
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="div"
+              name="Contas"
+              value="4"
+            />Divisão</strong
+          >
+        </tr>
+      </th>
+      <br />
+    </table>
+
+    <br />
+    <div>
+      <button id="btnLink" onclick="tabuada()">Tabuada</button>
+      <button id="btnLink"><a href="menu.html">Voltar</a></button>
+    </div>
+    <br /><br />
+
+    <div id="resposta"></div>
+
+    <div>
+      <button id="btn"><a href="tabuada.html">Continuar</a></button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

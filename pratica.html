@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Prática</title>
+</head>
+
+<body id="aprenda">
+  <header class="header">
+    <img id="logo" src="img/logo.png" alt="" />
+  </header>
+    <h2>Vamos praticar !!!</h2>
+    <h2>Selecione uma operação:</h2>
+   
+    <table id="center"><caption></caption>
+      <th>
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="adi"
+              name="Contas"
+              value="1"
+            />Adição</strong
+          >
+        </tr>
+
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="sub"
+              name="Contas"
+              value="2"
+            />Subtração</strong
+          >
+        </tr>
+
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="mult"
+              name="Contas"
+              value="3"
+            />Multiplicação</strong
+          >
+        </tr>
+
+        <tr>
+          <strong
+            ><input
+              type="radio"
+              id="div"
+              name="Contas"
+              value="4"
+            />Divisão</strong
+          >
+        </tr>
+      </th>
+      <br />
+    </table>
+    <br />
+  <div>
+    <div>
+        <strong>Digite o primeiro número:</strong><input id="num1" type="number" /> <br />
+    </div>
+    
+  </div>
+  <div id="operacao"></div>
+  <div>
+    <div>
+        <strong>Digite o segundo número:</strong><input id="num2" type="number" /> <br />
+    </div>
+  </div>
+    <br />
+    <div>
+        <div>
+        <strong>Digite o resultado:</strong><input id="result" type="number" /> <br />
+        </div>        
+      </div>
+  <br />
+  <button id="btn" onclick="pratica()">Praticar</button>
+  <button id="btn"><a href="pratica.html">Continuar</a></button>
+  <button id="btn"><a href="menu.html">Voltar</a></button>
+  <br /><br />
+  <div  id="apres">
+    <div id="imagem" alt="" /></div>
+    <br />
+    <strong><div id="resultado"></div></strong>
+  </div> 
+  <br />
+  
+  <br />
+  <script src="script.js"></script>
+</body>
+</html>

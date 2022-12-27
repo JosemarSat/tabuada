@@ -1,0 +1,211 @@
+body {
+    text-align: center;    
+    font-style: bold;    
+    background-color: #3e471280;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgba(228, 0, 0, 0.932);
+    font-style: bold;  
+}
+
+a:hover {
+    font-size: 1.7rem;
+    font-style: bold;  
+    color: white;  
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#inicio {
+    text-align: center;
+    width: 100%;  
+    height: 96vh;  
+}
+
+#logo {
+    text-align: center;
+    width: 100vh;
+    height: 20vh;
+    padding-top:0px;
+}
+
+#num {
+    color:white;
+}
+
+#center {    
+    display: flex;
+}
+
+#resposta {   
+    font-size: 1.5rem;
+    color: white;
+    font-style: bold;
+}
+
+input {
+    width: 3rem;
+    font-size: 1.3rem;
+}
+
+input:hover {
+    font-size: 1.5rem;
+    border-radius: 20%;
+    background-color: red;
+    color: white;
+    font-style: bold; 
+}
+
+#adi {
+    color: black;
+}
+
+#btn {   
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 30%;
+    border: 3px solid rgb(216, 83, 6);
+    color: rgba(228, 0, 0, 0.932);
+    font-style: bold;
+}
+
+#btn:hover {
+    font-size: 1.5rem;
+    border-radius: 40%;
+    background-color: red;
+    color: white;
+    font-style: bold; 
+}
+
+#btnLink {   
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 30%;
+    border: 3px solid rgb(216, 83, 6);
+    color: rgba(228, 0, 0, 0.932);
+    font-style: bold;
+}
+
+#btnLink:hover {
+    font-size: 1.5rem;
+    border-radius: 40%;
+    background-color: red;
+    color: white;
+    font-style: bold; 
+}
+
+#aprenda {
+    background-image: url(img/teia.jpg);
+    text-align: center;
+    width: 90%;
+    height: 60vh;      
+}
+
+#imagem {
+    width: 100vh;
+}
+
+strong {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header {    
+    opacity: 0.8;
+}
+
+#apres {
+    display: block;
+}
+
+#resultado {
+    padding-left: 0px;
+}
+
+#operacao {
+    font-size: 2.5rem;
+    font-style: bold;
+    color: yellow;
+    padding-left: 17rem;
+}
+
+@media (max-width: 1100px) {
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #inicio {
+        max-width: 100%;
+    }
+
+    a:hover {
+        font-size: 1.0rem;
+    }
+
+    a:hover {
+        font-size: 1.3rem;
+    }
+
+    #btn {   
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    #btn:hover {
+        font-size: 1.3rem;
+    }
+
+    #btnLink {   
+        font-size: 1.1rem;
+    }
+    
+    #btnLink:hover {
+        font-size: 1.3rem;
+    }
+    
+
+    #logo {
+        max-width: 100%;
+    }
+    #aprenda {
+        max-width: 100%;
+        margin: 0 auto;
+        max-height: 100%;
+    }
+
+    #aprenda img {
+        opacity: 0.5;
+    }
+
+    #imagem {
+        max-width: 100%;
+        margin: 0 auto;    
+    }
+
+    .header {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #resposta {
+        font-size: 1rem;    
+    }
+
+    strong {        
+        font-size: 1rem;
+    }
+
+    #operacao {
+        color: white;
+        padding-left: 0.0rem;
+        text-align: center;
+    }
+
+}
